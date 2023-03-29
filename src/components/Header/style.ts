@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderContainer = styled.header`
     display: flex;
-    font-size: 30px;
+    font-size: 40px;
     align-items: center;
     justify-content: space-between;
     margin: 10px 0 30px ;
@@ -12,7 +12,9 @@ export const HeaderContainer = styled.header`
 
     img {
         margin-right: 10px;
-        width: 60px;
+        width: 3-px;
+        margin-left: 10px;
+        margin-bottom: 10px;
     }
 
 
