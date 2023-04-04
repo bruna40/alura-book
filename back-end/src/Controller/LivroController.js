@@ -25,5 +25,17 @@ export class LivroController {
 
     }
 
+    static createBook(req, res) {
+        try {
+            const livro = req.body;
+
+            LivroService.createBook(livro);
+
+            res.status(201).send('Livro criado com sucesso');
+        } catch (error) {
+            res.status(500).send(error.message);
+        }
+    }
+
 
 }

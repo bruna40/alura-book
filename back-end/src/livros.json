@@ -1,11 +1,1 @@
-[
-    {
-        "id": 1,
-        "name": "Livro Legal"
-
-    },
-    {
-        "id": 2,
-        "name": "Livro Show de Bola"
-    }
-]
+[{"id":1,"name":"Livro Legal"},{"id":2,"name":"Livro Show de Bola"},{"id":3,"name":"xablau"}]

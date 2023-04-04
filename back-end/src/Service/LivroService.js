@@ -17,5 +17,16 @@ export class LivroService{
         return livro;
     }
 
+    static createBook(livro) {
+        const livros = this.getAllBooks();
+
+        const novaLista = [...livros, livro];
+
+
+
+        fs.writeFileSync('./src/livros.json', JSON.stringify(novaLista));
+
+    }
+
    
 }
