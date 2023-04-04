@@ -6,7 +6,7 @@ const app = express();
 const port = 3002;
 
 app.use(express.json());
-app.use(LivroRouter)
+app.use('/livros', LivroRouter)
 
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);

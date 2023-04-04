@@ -3,7 +3,6 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(90deg, #002F52 35%, #326589);
 
 
     * {
@@ -14,6 +13,9 @@ export const GlobalStyle = createGlobalStyle`
     header {
         margin: 20px;
 
+    }
+    body {
+        background-image: linear-gradient(90deg, #002F52 35%, #326589);
     }
 
 `;
